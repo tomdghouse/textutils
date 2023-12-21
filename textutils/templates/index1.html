@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>website template</title>
+    <style>
+        h1 {text-align: center; color: blue}
+    </style>
+</head>
+<h1>Welcome to Text Analyzer</h1>
+<body>
+
+<form action="/analyze" method="get">
+    <textarea name="text" style="width: 1233px; height: 210px;"></textarea><br>
+    <p>Select options from</p>
+    <input type="checkbox" name="removepunc">Remove Punctuations<br>
+    <input type="checkbox" name="countchar">Count Characters<br>
+    <input type="checkbox" name="uppercase">Upper Case<br>
+    <button type="submit">Analyze Text</button><br>
+
+</form>
+
+</body>
+</html>
